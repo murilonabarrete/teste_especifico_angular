@@ -1,0 +1,427 @@
+.page {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -94px;
+    margin-left: -476.5px;
+    border: 1.5px solid #EEEEEE;
+    width: 953px;
+    height: 188px;
+    background-color: #FAFAFA;
+}
+
+.menu {
+    width: 100%;
+    height: 37px;
+    cursor:pointer;
+}
+
+.submenu {
+    width: 100%;
+    height: 30px;
+    cursor:pointer;
+}
+
+.menu--button {
+    width: 50%;
+    height: 32px;
+}
+
+.submenu--button {
+    width: 14.0%;
+    height: 30px;
+}
+
+.menu--button-gen1 {
+    position: absolute;
+    left: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    z-index: 3;
+
+    p {
+        margin-top: 9px;
+        margin-left: 208.5px;
+        width: 89px;
+        height: 19px;
+        text-align: center;
+        font: 14px/19px Roboto;
+        font-weight: 500;
+        letter-spacing: 1.4px;
+        color: #611829;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+}
+
+.menu--button-gen2 {
+    position: absolute;
+    left: 453px;
+    margin-right: 5px;
+    padding-right: 15px;
+    margin-left: 0px;
+    margin-top: 5px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    p {
+        margin-top: 9px;
+        margin-left: 208.5px;
+        width: 89px;
+        height: 19px;
+        text-align: center;
+        font: 14px/19px Roboto;
+        font-weight: 500;
+        letter-spacing: 1.4px;
+        color: #AAAAAA;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+}
+
+.submenu--button-poke1 {
+    position: absolute;
+    left: 0px;
+    background: transparent linear-gradient(180deg, #EEEEEE 0%, #FAFAFA 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-right: 1.5px solid #EEEEEE;
+
+    p {
+        margin-top: 9px;
+        margin-left: 51px;
+        width: 42px;
+        height: 13px;
+        text-align: center;
+        font: 10px/13px Roboto;
+        font-weight: bold;
+        letter-spacing: 1.4px;
+        color: #611829;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+}
+
+.submenu--button-poke2 {
+    position: absolute;
+    left: 14.1%;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-right: 1.5px solid #CCCCCC;
+
+    p {
+        margin-top: 9px;
+        margin-left: 51px;
+        width: 42px;
+        height: 13px;
+        text-align: center;
+        font: 10px/13px Roboto;
+        font-weight: bold;
+        letter-spacing: 1.4px;
+        color: #999999;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+}
+
+.submenu--button-poke3 {
+    position: absolute;
+    left: 28.3%;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-right: 1.5px solid #CCCCCC;
+
+    p {
+        margin-top: 9px;
+        margin-left: 51px;
+        width: 42px;
+        height: 13px;
+        text-align: center;
+        font: 10px/13px Roboto;
+        font-weight: bold;
+        letter-spacing: 1.4px;
+        color: #999999;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+}
+
+.submenu--button-poke4 {
+    position: absolute;
+    left: 42.4%;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-right: 1.5px solid #CCCCCC;
+
+    p {
+        margin-top: 9px;
+        margin-left: 51px;
+        width: 42px;
+        height: 13px;
+        text-align: center;
+        font: 10px/13px Roboto;
+        font-weight: bold;
+        letter-spacing: 1.4px;
+        color: #999999;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+}
+
+.submenu--button-poke5 {
+    position: absolute;
+    left: 56.5%;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-right: 1.5px solid #CCCCCC;
+
+    p {
+        margin-top: 9px;
+        margin-left: 51px;
+        width: 42px;
+        height: 13px;
+        text-align: center;
+        font: 10px/13px Roboto;
+        font-weight: bold;
+        letter-spacing: 1.4px;
+        color: #999999;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+}
+
+.submenu--button-poke6 {
+    position: absolute;
+    left: 70.7%;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-right: 1.5px solid #CCCCCC;
+
+    p {
+        margin-top: 9px;
+        margin-left: 51px;
+        width: 42px;
+        height: 13px;
+        text-align: center;
+        font: 10px/13px Roboto;
+        font-weight: bold;
+        letter-spacing: 1.4px;
+        color: #999999;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+}
+
+.submenu--button-poke7 {
+    position: absolute;
+    left: 84.8%;
+    width: 15.1%;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    p {
+        margin-top: 9px;
+        margin-left: 51px;
+        width: 42px;
+        height: 13px;
+        text-align: center;
+        font: 10px/13px Roboto;
+        font-weight: bold;
+        letter-spacing: 1.4px;
+        color: #999999;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+}
+
+.content {
+    top: 85px;
+    left: 9px;
+    width: 500px;
+    height: 96px;
+    margin: 0;
+}
+
+.content--sphere {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: 3px solid #EEEEEE;
+    z-index: 5;
+    margin-top: 10px;
+    margin-left: 8px;
+    background: #EEEEEE;
+    position: relative;
+}
+
+.content--img {
+    z-index: 1;
+    width: 92px;
+    height: 92px;
+    background-position: center;
+    opacity: 0.5;
+
+    img {
+        width: 92px;
+        height: 92px;
+    }
+}
+
+.content--data {
+    position: absolute;
+    top: 85px;
+    left: 127px;
+    width: 341px;
+    height: 65px;
+}
+
+.content--data-name-en {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 175px;
+    height: 24px;
+
+    p {
+        text-align: left;
+        font: 18px/20px Roboto;
+        font-weight: 900;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        color: #611829;
+        opacity: 1;
+        margin: 0%;
+    }
+}
+
+.content--data-name-jp {
+    position: absolute;
+    left: 0px;
+    top: 22px;
+    width: 171px;
+    height: 21px;
+
+    p {
+        text-align: left;
+        font: 16px Roboto;
+        letter-spacing: 1.6px;
+        color: #924551;
+        opacity: 1;
+        margin: 0%;
+    }
+}
+
+.content--data-genus {
+    position: absolute;
+    left: 0px;
+    top: 46px;
+    width: 200px;
+    height: 19px;
+
+    p {
+        text-align: left;
+        font: 14px/20px Roboto;
+        font-weight: 500;
+        letter-spacing: 1.4px;
+        color: #999999;
+        text-transform: uppercase;
+        opacity: 1;
+        margin: 0%;
+    }
+}
+
+.content--data-id {
+    position: absolute;
+    left: 304px;
+    width: 37px;
+    height: 19px;
+
+    p {
+        text-align: right;
+        font: 14px/20px Roboto;
+        font-weight: 500;
+        letter-spacing: 1.4px;
+        color: #999999;
+        opacity: 1;
+        margin: 0%;
+    }
+}
+
+.content--type-a {
+    position: absolute;
+    top: 155px;
+    left: 127px;
+    width: 110px;
+    height: 25px;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    border-radius: 36px;
+    opacity: 1;
+    cursor:pointer;
+
+    p {
+        text-align: center;
+        font: 12px/16px Roboto;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        color: #9E9E9E;
+        text-transform: uppercase;
+        opacity: 1;
+        margin: 5px;
+    }
+}
+
+.content--type-b {
+    position: absolute;
+    top: 155px;
+    left: 242px;
+    width: 86px;
+    height: 25px;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    border-radius: 36px;
+    opacity: 1;
+    cursor:pointer;
+
+    p {
+        text-align: center;
+        font: 12px/16px Roboto;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        color: #999999;
+        text-transform: uppercase;
+        opacity: 1;
+        margin: 5px;
+    }
+}
+
+.content--description {
+    position: absolute;
+    top: 87px;
+    left: 477px;
+    width: 468px;
+    height: 93px;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    overflow: auto;
+
+    p {
+        top: 99px;
+        left: 490px;
+        width: 443px;
+        height: 70px;
+        text-align: left;
+        font: 12px/14px Roboto;
+        letter-spacing: 1.2px;
+        color: #999999;
+        text-transform: uppercase;
+        opacity: 1;
+        margin: 13px;
+    }
+}

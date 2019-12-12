@@ -1,20 +1,79 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="page">
+  <div class="menu">
+    <div id="button-gen1" class="menu--button menu--button-gen1" (click)="buttonGen1Click()">
+      <p id="text-gen1">geração 1</p>
+    </div>
 
+    <div id="button-gen2" class="menu--button menu--button-gen2" (click)="buttonGen2Click()">
+      <p id="text-gen2">geração 2</p>
+    </div>
+  </div>
+
+  <div class="submenu">
+    <div id="button-poke1" class="submenu--button submenu--button-poke1" (click)="buttonPoke1Click()">
+      <p id="text-poke1">poke 1</p>
+    </div>
+
+    <div id="button-poke2" class="submenu--button submenu--button-poke2" (click)="buttonPoke2Click()">
+      <p id="text-poke2">poke 2</p>
+    </div>
+
+    <div id="button-poke3" class="submenu--button submenu--button-poke3" (click)="buttonPoke3Click()">
+      <p id="text-poke3">poke 3</p>
+    </div>
+
+    <div id="button-poke4" class="submenu--button submenu--button-poke4" (click)="buttonPoke4Click()">
+      <p id="text-poke4">poke 4</p>
+    </div>
+
+    <div id="button-poke5" class="submenu--button submenu--button-poke5" (click)="buttonPoke5Click()">
+      <p id="text-poke5">poke 5</p>
+    </div>
+
+    <div id="button-poke6" class="submenu--button submenu--button-poke6" (click)="buttonPoke6Click()">
+      <p id="text-poke6">poke 6</p>
+    </div>
+
+    <div id="button-poke7" class="submenu--button submenu--button-poke7" (click)="buttonPoke7Click()">
+      <p id="text-poke7">poke 7</p>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="content--sphere">
+      <div class="content--img">
+        <img src="{{ img }}" alt="Pokemon Sprite">
+      </div>
+    </div>
+
+    <div class="content--data">
+      <div class="content--data-name-en">
+        <p>{{ nomeEn }}</p>
+      </div>
+
+      <div class="content--data-name-jp">
+        <p>{{ nomeJp }}</p>
+      </div>
+
+      <div class="content--data-genus">
+        <p>{{ genusEn }}</p>
+      </div>
+
+      <div class="content--data-id">
+        <p>#{{ id }}</p>
+      </div>
+    </div>
+
+    <div class="content--type-a" (click)="tipoA()">
+      <p>tipo A</p>
+    </div>
+    <div class="content--type-b" (click)="tipoB()">
+      <p>tipo B</p>
+    </div>
+
+    <div class="content--description">
+      <p>{{ flavorTextEn }}</p>
+    </div>
+  </div>
+
+</div>
